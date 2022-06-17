@@ -55,29 +55,18 @@ html {
 
 /*****************************/
 
-.hs-form .hs_email>label {
+
+/* .hs-form .hs_email>label {
     display: none;
 }
 
 .hs-form {
     cursor: url(https://assets.website-files.com/61e43ce…/61e56c5…_pointer_dark.svg), auto;
-}
+} */
 
 .modal-wrap .hs-input::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #fff;
     opacity: 1;
-    /* Firefox */
-}
-
-.modal-wrap .hs-input:-ms-input-placeholder {
-    /* Internet Explorer 10-11 */
-    color: #fff;
-}
-
-.modal-wrap .hs-input::-ms-input-placeholder {
-    /* Microsoft Edge */
-    color: #fff;
 }
 
 .modal-wrap .hs-input {

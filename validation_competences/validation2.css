@@ -2995,6 +2995,9 @@ strong {
     margin-left: auto;
 }
 
+
+/* Conteneur des bandes */
+
 .how-stripe-wrap {
     position: absolute;
     left: 0;
@@ -3002,6 +3005,9 @@ strong {
     right: 0;
     bottom: 0;
 }
+
+
+/* Bande rose avec slider */
 
 .how-stripe {
     position: relative;
@@ -3021,7 +3027,12 @@ strong {
     -ms-transform: scale(1.1) rotate(-3deg);
     transform: scale(1.1) rotate(-3deg);
     color: #fff;
+    -moz-transform: scale(1.1) rotate(-3deg);
+    -o-transform: scale(1.1) rotate(-3deg);
 }
+
+
+/* Bande jaune avec slider */
 
 .how-stripe.yellow {
     background-color: #fcbf19;
@@ -3029,6 +3040,8 @@ strong {
     -ms-transform: rotate(3deg);
     transform: rotate(3deg);
     color: #dca100;
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
 }
 
 .how-stripe-txt {
@@ -3070,6 +3083,9 @@ strong {
     line-height: 0.8rem;
     font-weight: 600;
 }
+
+
+/* Overlay sur les bandes */
 
 .how-stripe-overlay {
     position: absolute;
@@ -9725,9 +9741,14 @@ strong {
         -webkit-transform: scale(0.9);
         -ms-transform: scale(0.9);
         transform: scale(0.9);
-        -webkit-transition: -webkit-transform 0.2s;
+        -webkit-transition: transform 0.2s, -webkit-transform 0.2s;
         transition: transform 0.2s;
         transition: transform 0.2s, -webkit-transform 0.2s;
+        -moz-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        -moz-transition: transform 0.2s, -webkit-transform 0.2s;
+        -ms-transition: transform 0.2s, -webkit-transform 0.2s;
+        -o-transition: transform 0.2s, -webkit-transform 0.2s;
     }
     .testi-img {
         position: relative;
