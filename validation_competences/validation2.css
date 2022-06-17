@@ -9913,7 +9913,7 @@ strong {
         max-width: 80%;
         min-height: 3.2rem;
     }
-    .orders-group {
+    /* .orders-group {
         top: auto;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
@@ -9928,7 +9928,7 @@ strong {
         -webkit-flex: 0 0 auto;
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
-    }
+    } */
     .order {
         margin: 0 3rem;
     }
