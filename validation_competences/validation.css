@@ -2,6 +2,10 @@ html {
     font-size: calc(0.6583019375672766rem + 0.7534983853606029vw);
 }
 
+body {
+    padding: 0px !important;
+}
+
 
 /* DARK CURSOR */
 

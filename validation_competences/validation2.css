@@ -5,6 +5,10 @@ html {
     height: 100%;
 }
 
+body {
+    padding: 0px !important;
+}
+
 article,
 aside,
 details,
@@ -8468,7 +8472,7 @@ strong {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     -ms-grid-columns: minmax(auto, 325px) minmax(auto, 325px) minmax(auto, 325px);
-    grid-template-columns: minmax(auto, 325px) minmax(auto, 325px) minmax(auto, 325px);
+    grid-template-columns: minmax(auto, 325px) minmax(auto, 325px) minmax( auto, 325px);
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
 }
@@ -9519,10 +9523,16 @@ strong {
 .body-2 {
     margin-top: 1.8rem;
     background-color: #fff;
+    padding: 0px;
+}
+
+.principal {
+    padding: 0px !important;
 }
 
 .body-3 {
     margin-top: 1.8rem;
+    padding: 0px !important;
 }
 
 .text-block-109 {
@@ -9559,6 +9569,7 @@ strong {
 
 .body-4 {
     margin-top: 1.8rem;
+    padding: 0px;
 }
 
 @media screen and (max-width: 991px) {
